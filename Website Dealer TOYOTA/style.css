@@ -1,0 +1,456 @@
+body
+{
+	background: url(mar/backbody.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position:center;
+	background-size: 100% 100%;
+	cursor: url("mar/cursor toyota.png"), auto;
+}
+.header
+{
+	position:fixed;
+	width:100%;
+	z-index:1000;
+	top:0;
+	left:0;
+	background: #fff;
+	background: rgba(255,255,255,0.95);
+	line-height: 4em;
+	height:5em;
+	box-shadow:5px 1px 5px 1px;
+}
+.tengah
+{
+	margin:auto;
+	width:1400px;
+	border:1px solid red;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+	cursor: url("mar/cursorp toyota.png"), auto;
+}
+.a
+{
+	text-decoration:none;
+	color:black;
+	font-family:arial;
+}
+.a:hover              
+{ 
+	color:white;
+}
+
+.menu1
+{
+	float:left;
+	margin-left:20px;
+	padding:10px;
+	-webkit-transition:2s; 
+	-moz-transition:2s;
+	transition:2s;
+	opacity:0.4;
+}
+.menu1:hover
+{
+	opacity:1;
+	-webkit-transform:rotate(20deg);
+	-moz-transform:rotate(20deg);
+	transform:rotate(20deg);
+}
+.menu2
+{
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+	float:left;
+	margin-left:80px;	
+	padding:10px;
+	opacity:0.4;
+}
+.menu2:hover
+{
+	opacity:1;
+}
+.menu
+{
+	float:left;
+	margin-left:20px;	
+	padding:5px;
+	font-size:18px;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+.menu:hover
+{
+	opacity:0.3;
+	background-color:red;
+	border-top: 5px solid red;
+}
+#tetap
+{
+	border-top: 5px solid red;
+	opacity:1;
+}
+.menu3
+{
+	float:left;
+	margin-left:50px;	
+	padding:5px;
+}
+.menu3 table
+{
+	font-size:12px;
+	font-family:arial;
+	opacity:0.5;
+}
+.menu3 table:hover
+{
+	border-radius:5px;
+	opacity:1;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+#me
+{	
+	margin-top:100px;
+}
+
+.isi
+{
+	margin:auto;
+	margin-top:20px;
+	padding-top:5px;
+	height:1250px;
+	width:1030px;
+	margin-bottom:4px;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 5px 5px;
+	color:white;
+}
+.cop
+{
+	margin-top:90px;
+	font-size:15px;
+}
+
+
+/*--SAYA--*/
+#saya
+{
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 1px 1px;
+	height:468px;
+	width:480px;
+	background:#e9e9e9;
+	background-image:url(images/saya.jpg);
+	background-repeat:no-repeat;
+	margin-bottom:5px;
+}
+
+.text
+{
+	margin-left:0px;
+	margin-right:0px;
+	font-size:20px;
+	height:765px;
+	background:rgba(0,0,0,0.3);
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:1px;
+	color:white;
+}
+
+/*--Chat--*/
+#chats
+{
+	margin-left:0px;
+	margin-right:0px;
+	font-size:20px;
+	height:765px;
+	width:765px;
+	background:rgba(0,0,0,0.3);
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:1px;
+	color:white;
+}
+
+
+/* ----- HOME ----- */
+.me
+{	
+	margin:auto;
+	width:390px;
+	height:70px;
+	background-image:url(images/home.png);
+	background-repeat:no-repeat;
+	margin-top:20px;
+	-webkit-transition:width 1s;
+	transition:width 1s;
+}
+.me:hover
+{	
+	width:934px;
+}
+#selamat
+{
+	height:100px;
+	width:1030px;
+	background-color:#e9e9e9;
+	margin-bottom:4px;
+	margin:auto;
+	padding:15px;
+	font-size:20px;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 2px 2px;
+	color:white;
+}
+
+#isi
+{
+	margin:auto;
+	margin-top:100px;
+	height:500px;
+	width:1030px;
+	background-color:#e9e9e9;
+}
+.slider 
+{
+    margin: 0 auto;
+    -moz-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.05) inset,
+        0 -5px 15px 0 rgba(0,0,0,.05) inset;
+}
+
+.flex-caption 
+{
+    position: absolute;
+    bottom: 20px;
+    max-width: 550px;
+    padding: 10px 20px;
+    margin: 0;
+    background: #1d1d1d; 
+    background: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    line-height: 20px;
+    color: #eaeaea;
+    text-align: left;
+    font-style: italic;
+}
+#tup
+{
+	height:329px;
+	width:540px;
+	background-image:url(mar/produk.png);
+	background-repeat:no-repeat;
+	-webkit-transition:width 2s;
+	-moz-transition:width 2s;
+	transition:width 2s;
+	opacity:0.9;
+}
+#tup:hover
+{
+	width:1037px;
+}
+#tup1
+{
+	height:329px;
+	width:720px;
+	background-image:url(mar/saya.png);
+	background-repeat:no-repeat;
+	-webkit-transition:width 2s;
+	-moz-transition:width 2s;
+	transition:width 2s;
+	opacity:0.9;
+}
+#tup1:hover
+{
+	width:1037px;
+}
+
+.put
+{
+	-webkit-transition:width 1s, height 1s, -webkit-transform 1s;
+	transition:width 1s, height 1s, transform 1s;
+	opacity:0.9;
+}
+.put:hover
+{
+	
+	-webkit-transform:rotate(10deg);
+	transform:rotate(10deg);
+}
+
+
+/* ----- INFO ----- */
+.isi1
+{
+	margin:auto;
+	margin-top:20px;
+	height:730px;
+	width:1030px;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 5px 5px;
+	color:white;
+}
+.text1
+{
+	float:left;
+	width:735px;
+	font-size:20px;
+	height:680px;
+	background:rgba(0,0,0,0.3);
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:40px;
+	color:white;
+	margin:5px;
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 1px 1px;
+}
+.img
+{
+	float:left;
+	width:240px;
+	font-size:20px;
+	height:720px;
+	background:rgba(0,0,0,0.3);
+	padding-bottom:px;
+	color:white;
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 1px 1px;
+	margin-top:5px;
+}
+.img img{margin-bottom:5px;}
+.jul
+{
+	background-color:red;
+	text-align:center;
+	font-size:20px;
+	padding:5px;
+	margin-bottom:5px;
+}
+.in
+{
+	background:rgba(0,0,0,0.3);
+	font-size:16px;
+	padding:5px;
+}
+.text1 h3{color:white;margin-top:50px}
+.text1 h1{color:red;}
+
+/* ----- KONTAK ----- */
+.kontak1
+{
+	margin-left:10px;
+	margin-right:10px;
+	color:red;
+}
+textarea
+{
+	height:300px;
+	width:550px;
+	margin-left:10px;
+	border:5px;
+	padding:10px;
+	font-size:18px;
+	resize: none;
+	border:2px solid red;
+}
+.isikontak
+{
+	width:400px;
+	height:30px;
+	padding-left:5px;
+	margin-bottom:20px;
+	border:2px solid red;
+}
+.k{float:left;margin-left:50px;}
+.k button
+{
+	width: 120px;
+    height: 30px;
+	margin-right:10px;
+    background: red;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff; 
+	cursor: pointer;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+.k button:hover
+{
+	opacity:0.4;
+	background:#cdcccc;
+	color: black;
+}
+.map{margin-top:100px;}
+.map{width:800px;}
+.map1{width:800px;border:1px solid red;}
+.map a{color:white;}
+.map hr{border:1px solid red;}
+
+/*--Produk--*/
+.isiproduk
+{
+	margin:auto;
+	margin-top:20px;
+	padding-top:5px;
+	height:580px;
+	width:1030px;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 5px 5px;
+	color:white;
+}
+.isiproduk table
+{
+	width:100%;
+	text-align:center;
+	margin-left:10px;
+}
+.isiproduk a{color:red;font-size:11px;}
+.isiproduk b{color:red;font-size:30px;}
+.isiproduk h3{color:white;font-size:18px;text-align:left;margin-left:5px;margin-top:10px;}
+.isiproduk h5{color:white;text-align:left;margin-left:10px;}
+
+.infor
+{
+	margin:auto;
+	margin-top:50px;
+	width:1030px;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-shadow:1px 1px 1px 1px;
+	-moz-box-shadow:1px 1px 1px 1px;
+	box-shadow:1px 1px 5px 5px;
+	color:white;
+}
+.infor a {font-size:26px;}
+.infor h1 {font-size:26px;}
+video{cursor: url("mar/cursorp toyota.png"), auto;}
